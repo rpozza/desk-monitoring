@@ -1,5 +1,5 @@
 {
-  "name": "desk-monitoring-fullstack",
+  "name": "desk-monitoring",
   "version": "1.0.0",
   "description": "FullStack React + D3 for Monitoring Users at their Desk with LWM2M Server",
   "main": "src/server/index.js",
