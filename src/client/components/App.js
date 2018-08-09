@@ -1,6 +1,8 @@
 import React from 'react';
+import SideMenu from './SideMenu';
+import Main from './Main';
 
-class App extends React.PureComponent{
+class App extends React.Component{
     constructor(props) {
         super(props);
     }
@@ -8,7 +10,8 @@ class App extends React.PureComponent{
     render() {
         return (
             <div>
-                <h1> Template </h1>
+            <SideMenu />
+            <Main />
             </div>
         );
     }

@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const axios = require('axios');
-const myconf = require("../../config.json")
+const myconf = require("../../server-secret.json")
 const nodemailer = require('nodemailer');
 const bodyParser = require('body-parser');
 
